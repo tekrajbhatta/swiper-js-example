@@ -1,0 +1,31 @@
+body {
+    background-color: #ddd;
+  
+    height: 400vh;
+  }
+  
+  section {
+    margin-top: 50px;
+      overflow: auto;
+    overflow-x: hidden;
+  }
+  
+  .swiper {
+    aspect-ratio:4/1;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
